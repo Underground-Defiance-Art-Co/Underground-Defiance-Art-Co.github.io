@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Underground Defiance Art Collective - About Us</title>
+  </head>
+  <body>
+    <!-- This link is the 'emergency exit' that takes users back to safety (your homepage). -->
+    <a href="index.html">Back to Home</a>
+
+    <!-- The <hr> tag creates a horizontal rule (a line), visually separating sections. -->
+    <hr>
+
+    <!-- ====================================================== -->
+    <!--      START: UNIQUE PAGE CONTENT                       -->
+    <!-- This is where the specific content for each new page -->
+    <!-- (like 'About Us' or 'Our Services') will go.        -->
+    <!-- ====================================================== -->
+   <h1> About Us </h1>
+    <h2> Our Story </h2>
+    <p>Underground Defiance became an idea after our founder, Ren Beck, took an art entrepreneurship course at the University of Northern Colorado, in which students had to come up with an idea for a new artistic business. Ren noticed that there were no accessible, free, and inclusive creative spaces centered around marginalized communities in Colorado. As a dancer and writer who is both disabled and queer, Ren is aware of how many creative people in marginalized communities are barred from the arts due to wealth inequality, inaccessibility, or fear of discrimination. They decided then and there that they wanted to create a nonprofit organization to address these issues and create positive social change. Thus, <b>Underground Defiance Art Collective</b> was born!</p>
+    <h2> Our Mission </h2>
+    <p>Here at Underground Defiance Art Collective, we strive to create an inclusive and diverse space for minority artists, dancers, musicians, stage performers, and writers to create and collaborate with each other. We believe that no matter what your disability, race, ethnicity, economic status, sexuality, or gender you deserve an environment that supports, respects, and challenges your artistic endeavors at <b>no</b>  cost to you. We know that art and community can break down society’s expectations of minorities to make a better world for <b>everyone!</b> If <em>you</em>  would like to support our organization please consider donating.</p>
+    <img src="https://as2.ftcdn.net/jpg/05/62/60/31/1000_F_562603127_TBqk7oyAN5sRVRnj8K90aiVrWzWtwDZS.jpg" alt="An illustration depicts a diverse group of people standing and sitting in wheelchairs against a vertically striped background of rainbow colors..." />
+    <!-- ====================================================== -->
+    <!--      END: UNIQUE PAGE CONTENT                         -->
+    <!-- ====================================================== -->
+    <hr>
+    <!-- The footer provides consistency and a professional closing on every page. -->
+    <p>(c) 2025 Underground Defiance Art Collective. All Rights Reserved.</p>
+  </body>
+</html>
