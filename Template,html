@@ -6,6 +6,16 @@
   <body>
     <!-- This link is the 'emergency exit' that takes users back to safety (your homepage). -->
     <a href="index.html">Back to Home</a>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="donate.html">Home</a></li>
+  </ul>
+</nav>
 
     <!-- The <hr> tag creates a horizontal rule (a line), visually separating sections. -->
     <hr>
