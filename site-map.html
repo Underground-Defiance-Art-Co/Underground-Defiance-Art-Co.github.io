@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Map Diagram</title>
+  <style>
+    .diagram-container {
+      position: relative;
+      width: 700px;
+      height: 800px;
+      margin: 0 auto;
+      background: #fff;
+    }
+    .diagram-node {
+      position: absolute;
+      width: 180px;
+      height: 90px;
+      border: 2px solid #222;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-size: 1.3em;
+      background: #fff;
+      box-sizing: border-box;
+    }
+    /* Node Positions */
+    #contact { left: 260px; top: 30px; }
+    #services { left: 490px; top: 120px; }
+    #donate { left: 30px; top: 120px; }
+    #home { left: 260px; top: 150px; }
+    #evente { left: 490px; top: 250px; }
+    #testimonials { left: 30px; top: 320px; }
+    #about { left: 260px; top: 320px; }
+    #team { left: 490px; top: 390px; }
+    #accessibility { left: 260px; top: 500px; }
+    /* Responsive for smaller screens */
+    @media (max-width: 800px) {
+      .diagram-container { width: 98vw; }
+      .diagram-node { font-size: 1em; width: 40vw; min-width: 100px; }
+    }
+    /* CSS Arrow Styles */
+    .diagram-arrow {
+      position: absolute;
+      stroke: #444;
+      stroke-width: 2.2;
+      marker-end: url(#arrowhead);
+      fill: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="diagram-container">
+    <!-- Nodes -->
+    <div class="diagram-node" id="contact">Contact Us</div>
+    <div class="diagram-node" id="services">Services</div>
+    <div class="diagram-node" id="donate">Donate</div>
+    <div class="diagram-node" id="home">Home</div>
+    <div class="diagram-node" id="evente">Evente</div>
+    <div class="diagram-node" id="testimonials">Testimonials</div>
+    <div class="diagram-node" id="about">About Us</div>
+    <div class="diagram-node" id="team">Our Team</div>
+    <div class="diagram-node" id="accessibility">Accessibility</div>
+    <!-- SVG Arrows -->
+    <svg width="700" height="800" style="position:absolute; left:0; top:0; pointer-events:none;">
+      <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+          refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+          <polygon points="0 0, 10 3.5, 0 7" fill="#444"/>
+        </marker>
+      </defs>
+      <!-- Home to Contact -->
+      <line class="diagram-arrow" x1="350" y1="150" x2="350" y2="120" />
+      <!-- Home to Donate -->
+      <line class="diagram-arrow" x1="260" y1="195" x2="160" y2="165" />
+      <!-- Home to Services -->
+      <line class="diagram-arrow" x1="440" y1="195" x2="580" y2="165" />
+      <!-- Home to Evente -->
+      <line class="diagram-arrow" x1="440" y1="210" x2="580" y2="295" />
+      <!-- Home to About Us -->
+      <line class="diagram-arrow" x1="350" y1="240" x2="350" y2="320" />
+      <!-- About Us to Testimonials -->
+      <line class="diagram-arrow" x1="260" y1="365" x2="160" y2="365" />
+      <!-- About Us to Our Team -->
+      <line class="diagram-arrow" x1="440" y1="365" x2="580" y2="435" />
+      <!-- About Us to Accessibility -->
+      <line class="diagram-arrow" x1="350" y1="410" x2="350" y2="500" />
+      <!-- Services to Contact (loop back) -->
+      <polyline class="diagram-arrow" points="580,165 620,110 350,60 350,120" />
+    </svg>
+  </div>
+</body>
+</html>
