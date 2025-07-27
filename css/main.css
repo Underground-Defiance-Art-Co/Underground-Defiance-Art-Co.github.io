@@ -25,28 +25,13 @@ th, td {
 
 thead {
   background-color: #d9c8ef; /* Give the header a light gray background */
-.navbar {
-  display: flex;
-  flex-direction: row; /* This is actually the default, but you can add it explicitly */
-  gap: 1rem;
-  background: #d9c8ef;
-  padding: 1rem;
-}
-.nav-btn {
-  background-color: #255920; /* Your brand color */
-  color: #fff;
-  padding: 0.5rem 1.25rem;
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-  font-family: "New Rocker", system-ui;
-  font-size: 1rem;
-  transition: background 0.2s;
-  cursor: pointer;
-  font-weight: 400;
-}
-
-.nav-btn:hover {
-  background-color: #3a8c3a; /* Slightly lighter green for hover effect */
-  color: #d9c8ef;
-}
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="donate.html">Donate</a></li>
+  </ul>
+</nav>
