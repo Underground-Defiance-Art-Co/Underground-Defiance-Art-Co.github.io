@@ -24,40 +24,5 @@ th, td {
 }
 
 thead {
-  background-color: #d9c8ef; /* Give the header a light gray background */
-.navbar {
-  background-color: #d9c8ef;
-  padding: 0.5rem 0;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* Make the nav horizontal */
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.navbar li {
-  /* Optionally add spacing between buttons */
-}
-
-.navbar a {
-  color: #255920;
-  text-decoration: none;
-  background: #fff;
-  border: 2px solid #255920;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  transition: background 0.2s, color 0.2s;
-  display: inline-block;
-}
-
-.navbar a:hover,
-.navbar a:focus {
-  background: #255920;
-  color: #d9c8ef;
-}
+  background-color: ##F0F0F0; /* Give the header a light gray background */
+)
