@@ -27,8 +27,9 @@ thead {
   background-color: #d9c8ef; /* Give the header a light gray background */
 .navbar {
   display: flex;
+  flex-direction: column; /* Stack children vertically */
   gap: 1rem;
-  background: #d9c8ef; /* Matches your thead color */
+  background: #d9c8ef;
   padding: 1rem;
 }
 
