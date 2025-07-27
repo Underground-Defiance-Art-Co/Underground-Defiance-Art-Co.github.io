@@ -1,6 +1,7 @@
 /* css/main.css - The Brand Bible */
 body {
-  background-color: #d9c8ef; /* Change to your preferred color */
+  background-color: #d9c8ef !important;
+}
   /* Or for an image: */
   /* background-image: url('../assets/background.jpg'); */
   /* background-size: cover; */
