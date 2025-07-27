@@ -1,11 +1,14 @@
 /* css/main.css - The Brand Bible */
 body {
+  background-color: #fffaee; /* Change to your preferred color */
+  /* Or for an image: */
+  /* background-image: url('../assets/background.jpg'); */
+  /* background-size: cover; */
   font-family: "New Rocker", system-ui;
   font-weight: 400;
   font-style: normal;
   color: #255920; /* A dark gray for readable body text */
   line-height: 1.6;
-  background-color: #fffaee;
 }
 
 h1, h2, h3 {
