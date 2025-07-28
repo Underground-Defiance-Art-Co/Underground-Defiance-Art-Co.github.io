@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
-    <loc>/</loc>
-    <priority>1.0</priority>
+    <loc>https://underground-defiance-art-co.github.io/index.html</loc>
   </url>
+  <!-- About Us Page -->
   <url>
-    <loc>/contact-us</loc>
-    <priority>0.8</priority>
+    <loc>https://underground-defiance-art-co.github.io/about.html</loc>
   </url>
+  <!-- Services Page -->
   <url>
-    <loc>/donate</loc>
-    <priority>0.8</priority>
+    <loc>https://underground-defiance-art-co.github.io/services.html</loc>
   </url>
+  <!-- Contact Page -->
   <url>
-    <loc>/about-us</loc>
-    <priority>0.8</priority>
+    <loc>https://underground-defiance-art-co.github.io/contact.html</loc>
   </url>
+  <!-- Donation Page -->
   <url>
-    <loc>/services</loc>
-    <priority>0.8</priority>
+    <loc>https://underground-defiance-art-co.github.io/donate.html</loc>
   </url>
+  <!-- Gallery Page -->
   <url>
-    <loc>/gallery</loc>
-    <priority>0.7</priority>
+    <loc>https://underground-defiance-art-co.github.io/gallery.html</loc>
   </url>
 </urlset>
