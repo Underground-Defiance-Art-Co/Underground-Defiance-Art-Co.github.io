@@ -23,6 +23,5 @@
   <url>
     <loc>/gallery</loc>
     <priority>0.7</priority>
-    <link rel="parent" href="/services"/>
   </url>
 </urlset>
